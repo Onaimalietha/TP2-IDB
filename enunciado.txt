@@ -1,5 +1,5 @@
 1.Escolher dois ou mais conjuntos de dados em alguma fonte de dados públicos e abertos.
-Exemplos de fontes de dados públicos
+Exemplos de fontes de dados públicos (feito)
  
 2. Carregar esses dados em um gerenciador de bancos de dados relacional, como o PostgreSQL 
 ou outro, e combinar esses dados, de modo a permitir análises integradas
