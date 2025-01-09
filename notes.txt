@@ -1,0 +1,11 @@
+# Características das unidades administradas pela FPMZB
+https://dados.pbh.gov.br/dataset/caracteristicas-das-unidades-administradas-pela-fpmzb
+
+# Coletas de Resíduos Sólidos (por região)
+https://dados.pbh.gov.br/dataset/coletas-de-residuos-solidos
+
+# Pessoas no Cadastro Único (Estimador de renda)
+https://dados.pbh.gov.br/dataset/pessoas-no-cadastro-unico
+
+# Índice de Qualidade de Vida Urbana (IQVU) 
+https://dados.pbh.gov.br/dataset/indice-de-qualidade-de-vida-urbana-iqvu

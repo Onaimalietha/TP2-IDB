@@ -1,0 +1,26 @@
+1.Escolher dois ou mais conjuntos de dados em alguma fonte de dados públicos e abertos.
+Exemplos de fontes de dados públicos
+ 
+2. Carregar esses dados em um gerenciador de bancos de dados relacional, como o PostgreSQL 
+ou outro, e combinar esses dados, de modo a permitir análises integradas
+
+3. Realizar uma análise exploratória nos dados(ver abaixo)
+- ER
+- Dicionários (feito)
+- Metadados   (feito)
+
+4. presentar uma análise crítica das fontes de dados utilizadas
+> dificuldade em encontrar dados voltados à regiões, principalmente para dados de coleta de lixo,
+os quais em sua maioria são registrados de acordo com rotas.
+> dificuldade em encontrar dados concisos quanto à medição de qualidade de vida a nível regional, 
+uma vez que medidas clássicas como IDH são de difícil acesso a nível regional intra municipal.
+
+5. Apresentar análises referentes à combinação ou integração de dados.
+
+
+
+
+
+
+
+
