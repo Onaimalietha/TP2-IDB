@@ -5,9 +5,9 @@ import pandas as pd
 csv_files = [
     ('cadunico.csv', 'cadunico'),
     ('coletas.csv', 'coletas'),
-    ('iqvu.csv', 'iqvu'),
-    ('up.csv', 'up')
+    ('iqvu.csv', 'iqvu')
 ]
+
 
 # Create SQLite database and insert data
 conn = sqlite3.connect('TP2_database.db')
@@ -17,5 +17,10 @@ for csv_file, table_name in csv_files:
     df = pd.read_csv(csv_file, delimiter=';', encoding='ISO-8859-1')
     df.to_sql(table_name, conn, if_exists='replace', index=False)
     conn.commit()
-# Close the connection
+
+# repeat for fockin up because different delimiter
+csv_file = 'up.csv'
+df = pd.read_csv(csv_file, delimiter=',', encoding='ISO-8859-1')
+df.to_sql('up', conn, if_exists='replace', index=False)
+conn.commit()
 conn.close()
