@@ -1,3 +1,7 @@
-SELECT
-    c.IDADE
+SELECT REGIONAL, COUNT(*) AS num_viagens
+FROM coletas
+GROUP BY REGIONAL;
+
+SELECT REGIONAL, COUNT(*) AS num_pessoas
 FROM cadunico
+GROUP BY REGIONAL;
